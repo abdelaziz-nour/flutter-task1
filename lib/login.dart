@@ -9,6 +9,7 @@ class Welcome extends StatelessWidget {
 final _formKey = GlobalKey<FormState>();  @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(backgroundColor: Colors.orange,title: Center(child: Text('Login'))),
       body: ListView(
         children: [
           Column(
